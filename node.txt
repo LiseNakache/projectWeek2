@@ -1,0 +1,13 @@
+cd Documents 
+<!-- enter the Documents folder -->
+mkdir ProjectWeek2
+<!-- create a new folder -->
+cd ProjectWeek2
+<!-- enter the ProjectWeek2 folder -->
+ls
+<!-- show everything in the folder -->
+touch my_project.html 
+touch style.css
+<!-- no space -->
+code .
+<!-- open it in VS CODE -->
