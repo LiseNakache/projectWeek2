@@ -43,11 +43,17 @@ undo the revert
 git branch -M main - ONCE for each project
 change the initial branch from master to main
 
-$ git remote add origin https://github.com/LiseNakache/projectWeek2.git
+$ git remote add origin https://github.com/LiseNakache/projectWeek2.git -once for each project
 
 $ git remote -v
 check the remote
 
+if needed 
+git pull origin main
+
+
+git push origin main
+add everything in the github repo 
 
 
 
