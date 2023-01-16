@@ -1,0 +1,62 @@
+cd Documents 
+<!-- enter the Documents folder -->
+mkdir ProjectWeek2
+<!-- create a new folder -->
+cd ProjectWeek2
+<!-- enter the ProjectWeek2 folder -->
+ls
+<!-- show everything in the folder -->
+touch my_project.html 
+touch style.css
+<!-- no space -->
+code .
+<!-- open it in VS CODE -->
+
+
+
+
+git init
+initialize the folder as a git repository
+gives powers to the folder
+so now we can track the changes
+
+git status
+not mandatory but recommended to check the status of the files
+
+git add .
+add all the files or folders that were modified
+
+git commit -m "relevant comment"
+
+git log 
+see all the previous commits
+find the id here
+
+git revert idcommit
+
+git cherry-pick id commit
+undo the revert
+
+
+----
+
+git branch -M main - ONCE for each project
+change the initial branch from master to main
+
+$ git remote add origin https://github.com/LiseNakache/projectWeek2.git
+
+$ git remote -v
+check the remote
+
+
+
+
+
+
+
+
+
+
+
+
+
